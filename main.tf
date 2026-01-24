@@ -28,7 +28,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  cluster_name = "demo-zookeeper-on-eks-cluster"
+  cluster_name = "demo-cluster"
 }
 
 module "vpc" {
